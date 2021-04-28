@@ -1,0 +1,11 @@
+#box{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, black 1%, black 22%, grey 51%,white 83%, white 100%);
+}

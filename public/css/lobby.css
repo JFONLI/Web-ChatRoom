@@ -1,0 +1,176 @@
+
+.chatrrom{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+#userlist{
+    display: flex;
+    flex-direction: column;  
+    height: auto;
+}
+
+#search{
+    border-radius: 2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#members{
+    overflow-y: auto;
+    margin: 10px;
+}
+
+#message_box{
+    display: flex;
+    height: 700px;
+    margin: auto;
+    
+}
+
+#chatroom{
+    display:flex;
+    flex-direction: column;
+    height: 700px;
+    margin: 10px;
+}
+
+#chatroom #message{
+    flex: 1;
+    border-width: 5px;
+    border-color: black;
+    background-color: white;
+    box-shadow: 0 0 5px #d1d1d1;
+    overflow-y: auto;
+    max-height: 80%;
+    padding: 15px;
+}
+
+#chatroom #input{
+    display: flex;
+    height: 10%;
+    margin-top: 25px;
+}
+
+#chatroom #input #btn{
+    margin: 10px;
+}
+
+#chatroom #input #text{
+    margin: 10px;
+}
+
+#chatroom #message #m .name{
+    color: #0072c5;
+    font-weight: bold;
+}
+
+#chatroom #message #m .message{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#chatroom #message #m1{
+    border-bottom: 1px solid grey;
+    margin: 10px;
+}
+
+#chatroom #message #m2{
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#btnsend{
+    height: 35px;
+    width: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+@media(min-width: 0px){
+
+    #chatroom{
+        display:flex;
+        flex-direction: column;
+        height: 700px;
+        margin: 10px;
+    }
+    #userlist{
+        display: flex;
+        flex-direction: column;  
+        height: 200px;
+    }
+    #message_box{
+        display: block;
+        height: 700px;
+        margin: auto;
+        
+    }
+}
+
+@media(min-width: 575.98px){
+
+    #chatroom{
+        display:flex;
+        flex-direction: column;
+        height: 700px;
+        margin: 10px;
+    }
+    #userlist{
+        display: flex;
+        flex-direction: column;  
+        height: 200px;
+    }
+    #message_box{
+        display: block;
+        height: 700px;
+        margin: auto;
+        
+    }
+}
+
+@media(min-width: 767.98px){
+
+    #chatroom{
+        display:flex;
+        flex-direction: column;
+        height: 700px;
+        margin: 10px;
+    }
+    #userlist{
+        display: flex;
+        flex-direction: column;  
+        height: 350px;
+    }
+    #message_box{
+        display: block;
+        height: 700px;
+        margin: auto;
+        
+    }
+}
+
+@media(min-width: 991.98px){
+
+    #chatroom{
+        display:flex;
+        flex-direction: column;
+        height: 700px;
+        margin: 10px;
+    }
+    #userlist{
+        display: flex;
+        flex-direction: column;  
+        height: auto;
+    }
+    #message_box{
+        display: flex;
+        height: 700px;
+        margin: auto;
+        
+    }
+}
+
