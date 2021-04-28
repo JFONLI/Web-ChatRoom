@@ -118,9 +118,4 @@ When a user is created, I pushed the email to Firebase under a folder "users"
 
 
 ### Webpage link
-    https://chatroom2-1cf47.web.app/
-<style>
-table th{
-    width: 100%;
-}
-</style>
+https://chatroom2-1cf47.web.app/
